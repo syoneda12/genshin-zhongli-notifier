@@ -44,8 +44,7 @@ header（情景描写）＋本文（ステータス）＋footer（哲学的余�
 1. Google Apps Scriptに新規プロジェクトを作成
 2. `src/` 内のファイルを追加し、内容をコピー
 3. `config.gs` にUID、Cookie、Webhook、スプレッドシートIDを設定
-4. スプレッドシートを作成し、`initLogSheet()` を一度実行してログシートを初期化
-5. トリガーを設定して毎時で `notifyGenshinDailyNote()` を実行
+4. トリガーを設定して毎時で `notifyGenshinDailyNote()` を実行
 
 ---
 
