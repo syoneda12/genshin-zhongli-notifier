@@ -4,7 +4,7 @@
  */
 function notifyGenshinDailyNote() {
   const hour = new Date().getHours();
-  if (hour < 6) {
+  if (hour < START_HOUR || hour >= END_HOUR) {
     logMessage(`現在${hour}時：静寂の時間ゆえ、処理を行わない。`);
     return;
   }
